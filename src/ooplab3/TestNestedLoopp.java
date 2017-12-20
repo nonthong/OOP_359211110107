@@ -12,7 +12,7 @@ public class TestNestedLoopp {
                     System.out.print(y--+"\t");
                 }else
                     System.out.print(x+++"\t");
-                }
+
             }//j
             System.out.println();
 
