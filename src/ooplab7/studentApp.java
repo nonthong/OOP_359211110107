@@ -24,9 +24,9 @@ public class studentApp {
         //s3 = inputData(s3);
         //System.out.println(s3.toString());
 
-        System.out.println(s2.getId();
+        System.out.println(s2.getId());
         s2.setId("004");
-        System.out.println(s2.getId();
+        System.out.println(s2.getId());
         s2.group = "223";
         System.out.println(s2.group);
         System.out.println(student.age);
@@ -47,5 +47,6 @@ public class studentApp {
         s.setPid(scanner.nextLine());
         System.out.print("Address");
         s.setAddress(scanner.nextLine());
-    }
+        return s;
+    }//inputdata
 }//class
