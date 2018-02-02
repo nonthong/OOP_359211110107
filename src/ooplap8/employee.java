@@ -1,6 +1,6 @@
 package ooplap8;
 
-public class Employee extends Person{
+class Employee extends person{
     private String position;
     private Integer salary;
     private String company;
