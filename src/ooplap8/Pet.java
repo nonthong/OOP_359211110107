@@ -1,16 +1,15 @@
-package ooplap8;
+package ooplab8;
 
-public  abstract class Pet {
+public abstract class Pet {
     private String name;
     private int age;
 
-    public Pet(String name,int age){
+    public Pet(String name, int age) {
         this.name = name;
         this.age = age;
     }
-
-    //abstract
-    public abstract void makenoise();
+    //abstract คลาสต้อง abstract ด้วย
+    public abstract void makeNoise();
 
     public String getName() {
         return name;
@@ -28,4 +27,3 @@ public  abstract class Pet {
         this.age = age;
     }
 }//class
-}
